@@ -1,0 +1,51 @@
+ /* .btn{
+                position: relative;
+                left: 80px;
+                width: 150px;
+                
+            } */
+            .btn:hover{
+
+                background-color: cadetblue !important ;
+            }
+            .Task{
+                border: 1px solid #8b192d;
+                border-radius: 5px;
+                background-color: #1583ef7d;
+             }
+             .main{
+                 width: 100%;
+             }
+             .radio-button{
+                 text-align: center;
+                 margin-top: 30px;
+                  font-weight: bold;
+             }
+             .radio-button input[type="radio"] {
+                 margin: 0 10px;
+                
+             }
+             .container-fluid.col-3.Task.mt-5 {
+                 margin: auto;
+             }
+             
+           .hidden{
+            display: none;
+           }
+           .list_div{
+        
+           border-radius: 5px;
+           width: 250px;
+        margin-top: 20px;
+        /* padding-left: 20px; */
+        padding: 20px;
+        height: fit-content;
+        
+        
+           }
+           .task_list_Container{    
+            position: relative;
+            left:35%;
+            width:400px;
+             align-items: center;
+           }

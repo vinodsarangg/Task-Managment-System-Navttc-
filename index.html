@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Managment System</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container col-3   radio-button">
+            <div class="">
+               <label for=""> <input type="radio" value="addtask" name="radio-button" onclick='showSection("addtaskdiv")' checked >Add Task  &emsp13;</label>
+              <label for=""> <input type="radio" value="showtask" name="radio-button" onclick='showSection("showtaskdiv")'>Show Task</label> 
+            </div>
+        </div>
+              
+            <div class="container-fluid col-3 Task  mt-2">
+            
+        
+        <div class=" form-container" id="addtaskdiv">
+            <h2  class="text-center mt-3 text-dark fs-1 " id="addtaskdiv"> Task</h2>
+            
+            <form action="" class="mb-2">
+                
+                
+
+           <label for="" class="form-label mt-3" ><strong>title:</strong></label><br>
+           <input type="text" name="" id="tasktitle" class="form-control" placeholder="title" >
+           <label for="" class="form-label mt-3" ><strong>Task Description:</strong></label><br>
+           <textarea class="form-control" id="TaskDescription" rows=""></textarea>
+           <label for="" class="form-label mt-3"><strong>Assigned by:</strong></label><br>
+           <input type="text" name="" id="AssignedBy" class="form-control" placeholder="">
+           <label for="" class="form-label mt-3"><strong>Due date:</strong></label><br>
+           <input type="date" name="" id="DueDate" class="form-control " placeholder="">
+           <div >
+                <button class="btn btn-primary text-center mt-4 mb-4" id="addbutton">Add task</button></div>
+           </form>
+        </div>
+
+        <!-- Add Task div -->
+        
+    </div>
+    <div class="task_list_Container hidden list_div bg-light" id="showtaskdiv"  >
+        <div class="h2 text-center">Added Task</div>
+        <div class="container  list_div" id="tasklist">
+         
+        </div>
+              </div>
+</body>
+<script src="js.js"></script>
+
+</html>
